@@ -1,0 +1,39 @@
+#home {
+  margin: 1rem auto;
+  height: 150rem;
+  width: 80%;
+}
+
+.homecard {
+  background-color: #aaa377;
+  border: solid #aaa377 2px;
+}
+
+#home h2 {
+  color: #fef4d1;
+  font-family: "Roboto", sans-serif;
+  font-size: 65px;
+  text-align: justify;
+  padding: 1px 150px 1px 150px;
+}
+
+#home h3 {
+  color: #fef4d1;
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  text-align: justify;
+  padding: 1px 150px 1px 150px;
+}
+
+#home p {
+  color: #fef4d1;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-align: justify;
+  padding: 1px 150px 1px 150px;
+}
+
+p.big {
+  line-height: 2.0;
+}

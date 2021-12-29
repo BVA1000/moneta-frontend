@@ -1,0 +1,31 @@
+#signin h1 {
+  color: #fef4d1;
+  font-family: "Roboto", sans-serif;
+  font-size: 90px;
+  margin: 5rem;
+  text-align: center;
+}
+
+.signinform {
+  text-align: center;
+  height: 35rem;
+}
+
+#signinform input {
+  border: solid #f7f0a3 1px;
+  border-radius: 0.5em;
+  background-color: #f7f0a3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #8B8002;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+  height: 30px;
+  width: 400px;
+}
+
+#signinform ::-webkit-input-placeholder {
+  color: #d1c96f;
+}

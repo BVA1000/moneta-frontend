@@ -1,0 +1,18 @@
+#coins {
+    margin: 1rem auto;
+    height: 150rem;
+    width: 80%;
+  }
+  
+  .coinscard {
+    background-color: #aaa377;
+    border: solid #aaa377 2px;
+  }
+  
+  #coins h2 {
+    color: #fef4d1;
+    font-family: "Roboto", sans-serif;
+    font-size: 70px;
+    text-align: center;
+    padding: 1px 150px 1px 150px;
+  }
