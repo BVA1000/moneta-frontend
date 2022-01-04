@@ -12,6 +12,7 @@ import Currency from "./pages/Currency/currency";
 import Layout from "./layout/Layout/layout";
 import AccountInfo from "./pages/Account/accountInfo";
 import UpdateAccount from "./pages/Account/updateAcct";
+import CreatePost from "./pages/Posts/createPost";
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
         <Route path="/account" element={<AccountInfo />} />
 
         <Route path="/update" element={<UpdateAccount />} />
+
+        <Route path="/createpost" element={<CreatePost />} />
       </Routes>
     </Layout>
   );
