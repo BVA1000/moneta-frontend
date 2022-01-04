@@ -1,0 +1,13 @@
+#accountInfo h1 {
+  color: #fef4d1;
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  margin: 5rem;
+  text-align: justify;
+}
+
+#accountInfo {
+  margin: 1rem auto;
+  height: 70rem;
+  width: 80%;
+}
