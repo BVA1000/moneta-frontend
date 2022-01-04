@@ -1,10 +1,12 @@
+import AccountCard from "../../components/Cards/accountCard";
 import "../../assets/fonts/fonts.css";
 import "./accountInfo.css";
 
 function AccountInfo() {
   return (
-    <div id="updateAcct">
-      <h2>Account Info</h2>
+    <div id="accountInfo">
+      <h1>Hello!</h1>
+      <AccountCard />
     </div>
   );
 }

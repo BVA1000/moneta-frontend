@@ -10,6 +10,8 @@ import Coins from "./pages/Coins/coins";
 import Currency from "./pages/Currency/currency";
 
 import Layout from "./layout/Layout/layout";
+import AccountInfo from "./pages/Account/accountInfo";
+import UpdateAccount from "./pages/Account/updateAcct";
 
 function App() {
   return (
@@ -30,6 +32,10 @@ function App() {
         <Route path="/coins" element={<Coins />} />
 
         <Route path="/currency" element={<Currency />} />
+
+        <Route path="/account" element={<AccountInfo />} />
+
+        <Route path="/update" element={<UpdateAccount />} />
       </Routes>
     </Layout>
   );

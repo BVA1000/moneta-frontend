@@ -5,7 +5,7 @@ import "./updateAcct.css";
 function UpdateAccount() {
   return (
     <div id="updateAcct">
-      <h2>Update Account</h2>
+      <h1>Update Account</h1>
       <div className="updateAcctForm">
         <UpdateAccountForm />
       </div>
