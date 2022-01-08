@@ -9,6 +9,12 @@
   border: solid #aaa377 2px;
 }
 
+.usCoins {
+  margin: 15px;
+  width: 800px;
+  height: 400px;
+}
+
 #home h2 {
   color: #fef4d1;
   font-family: "Roboto", sans-serif;
@@ -35,5 +41,5 @@
 }
 
 p.big {
-  line-height: 2.0;
+  line-height: 2;
 }

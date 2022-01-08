@@ -1,4 +1,5 @@
 import "../../assets/fonts/fonts.css";
+import uscoins from "../../assets/images/uscoins.jpg";
 import "./home.css";
 
 function Home() {
@@ -24,7 +25,7 @@ function Home() {
           creating an account here.
         </p>
         <br />
-
+        <img src={uscoins} className="usCoins" alt="US Coins" />
         <div>
           <h3>Numismatic News</h3>
 
