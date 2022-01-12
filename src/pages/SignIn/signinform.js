@@ -5,13 +5,15 @@ import "./signin.css";
 function SignInForm() {
   return (
     <div id="signinform">
-      <div>
-        <input placeholder="Username" type="text" required />
-      </div>
-      <div>
-        <input placeholder="Password" type="password" required />
-      </div>
-      <Submit />
+      <form>
+        <div>
+          <input placeholder="Username" type="text" required />
+        </div>
+        <div>
+          <input placeholder="Password" type="password" required />
+        </div>
+        <Submit />
+      </form>
     </div>
   );
 }
