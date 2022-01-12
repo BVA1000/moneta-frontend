@@ -1,47 +1,35 @@
-#services {
-  margin: 1rem auto;
-  height: 150rem;
-  width: 80%;
-}
-
-.servicescard {
-  background-color: #aaa377;
-  border: solid #aaa377 2px;
-}
-
-/*#home h1 {*/
-/*color: #fef4d1;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-size: 85px;
-    text-align: center;
-  }*/
-
 #services h2 {
   color: #fef4d1;
   font-family: "Roboto", sans-serif;
   font-size: 65px;
+  margin: 15px;
   text-align: justify;
-  padding: 1px 150px 1px 150px;
 }
 
 #services h3 {
   color: #fef4d1;
   font-family: "Roboto", sans-serif;
   font-size: 40px;
+  margin: 15px;
   text-align: justify;
-  padding: 1px 150px 1px 150px;
 }
 
 #services p {
   color: #fef4d1;
   font-family: "Roboto", sans-serif;
   font-size: 25px;
-  letter-spacing: 2px;
+  margin: 15px;
   text-align: justify;
-  padding: 1px 150px 1px 150px;
+}
+
+h2.big {
+  line-height: 2;
+}
+
+h3.big {
+  line-height: 2;
 }
 
 p.big {
-  line-height: 2.0;
+  line-height: 2;
 }

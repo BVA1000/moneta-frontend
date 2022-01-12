@@ -1,26 +1,23 @@
-#about {
-  margin: 1rem auto;
-  height: 50rem;
-  width: 80%;
-}
-
-.aboutcard {
-  background-color: #aaa377;
-  border: solid #aaa377 2px;
-}
-
 #about h2 {
   color: #fef4d1;
   font-family: "Roboto", sans-serif;
   font-size: 65px;
+  margin: 15px;
   text-align: justify;
-  padding: 1px 150px 1px 150px;
 }
 
 #about p {
   color: #fef4d1;
   font-family: "Roboto", sans-serif;
   font-size: 30px;
+  margin: 15px;
   text-align: justify;
-  padding: 1px 150px 1px 150px;
+}
+
+h2.big {
+  line-height: 2;
+}
+
+p.big {
+  line-height: 2;
 }
