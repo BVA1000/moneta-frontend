@@ -1,4 +1,4 @@
-import AccountCard from "../../components/Cards/accountCard";
+import AccountCard from "../../components/Cards/AccountCard/accountCard";
 import "../../assets/fonts/fonts.css";
 import "./accountInfo.css";
 
