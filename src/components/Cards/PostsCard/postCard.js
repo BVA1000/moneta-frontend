@@ -1,5 +1,5 @@
-import BackToAccountButton from "../Buttons/Account/backtoacct";
-import SubmitPost from "../Buttons/Submit/submitpost";
+import BackToAccountButton from "../../Buttons/Account/backtoacct";
+import SubmitPost from "../../Buttons/Submit/submitpost";
 import "./postCard.css";
 
 function CreatePostCard() {

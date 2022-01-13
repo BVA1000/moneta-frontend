@@ -1,4 +1,4 @@
-import CreatePostCard from "../../components/Cards/postCard";
+import CreatePostCard from "../../components/Cards/PostsCard/postCard";
 import "../../assets/fonts/fonts.css";
 import "./createPost.css";
 

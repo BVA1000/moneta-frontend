@@ -1,6 +1,6 @@
-import Update from "../Buttons/Update/update";
-import Create from "../Buttons/Create/create";
-import Edit from "../Buttons/Edit/edit";
+import Update from "../../Buttons/Update/update";
+import Create from "../../Buttons/Create/create";
+import Edit from "../../Buttons/Edit/edit";
 import "./accountCard.css";
 
 function AccountCard() {

@@ -7,10 +7,14 @@ function Home() {
   return (
     <div id="home">
       <Grid container spacing={3}>
-        <Grid item xs={12} md={12}>
+        <Grid item xs={0} sm={1} />
+        <Grid item xs={12} md={10}>
           <h2 className="big">Welcome to Moneta!</h2>
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={0} sm={1} />
+
+        <Grid item xs={0} sm={1} />
+        <Grid item xs={12} md={5}>
           <p className="big">
             Moneta is a great platform for coin enthusiasts who love the study
             of numismatics and who want to connect with others who have common
@@ -28,10 +32,14 @@ function Home() {
             creating an account here.
           </p>
         </Grid>
-        <Grid item xs={12} md={6}>
+
+        <Grid item xs={12} md={5}>
           <img src={uscoins} className="usCoins" alt="US Coins" />
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid item xs={0} sm={1} />
+
+        <Grid item xs={0} sm={1.005} />
+        <Grid item xs={12} md={3.33}>
           <h3 className="big">Numismatic News</h3>
 
           <p className="big">
@@ -46,7 +54,7 @@ function Home() {
             and selling or trading their coin collections to other collectors.
           </p>
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={3.33}>
           <h3 className="big">Membership</h3>
 
           <p className="big">
@@ -61,7 +69,7 @@ function Home() {
             and selling or trading their coin collections to other collectors.
           </p>
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={3.33}>
           <h3 className="big">Coin Values</h3>
 
           <p className="big">
@@ -76,6 +84,7 @@ function Home() {
             and selling or trading their coin collections to other collectors.
           </p>
         </Grid>
+        <Grid item xs={0} sm={1.005} />
       </Grid>
     </div>
   );
