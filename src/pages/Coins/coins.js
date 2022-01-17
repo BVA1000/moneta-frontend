@@ -14,7 +14,7 @@ function Coins() {
       <Grid container spacing={3}>
         <Grid item xs={1} sm={2} />
         <Grid item xs={10} sm={8}>
-          <h2>Coin Series</h2>
+          <h2>Coins</h2>
         </Grid>
         <Grid item xs={1} sm={2} />
 
