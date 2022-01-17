@@ -36,7 +36,7 @@ function NewsCard() {
   };
 
   return (
-    <Card sx={{ maxWidth: 550, bgcolor: amber[100] }}>
+    <Card sx={{ maxWidth: 550, bgcolor: "#f7f0a3" }}>
       <CardHeader
         sx={{ color: "#8b8002" }}
         avatar={
