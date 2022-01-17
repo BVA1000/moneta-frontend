@@ -1,16 +1,3 @@
 #foot {
-  align-items: center;
-  justify-content: space-between;
-  background-color: #f7f0a3;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  position: static;
-  width: 100%;
-}
-
-#foot p {
-  color: #8b8002;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  font-size: 1.5rem;
-  padding: 10px;
 }
