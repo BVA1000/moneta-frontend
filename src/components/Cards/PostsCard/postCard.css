@@ -1,4 +1,4 @@
-#createPostsCard {
+/*#createPostsCard {
   border: solid #f7f0a3 1px;
   border-radius: 0.5em;
   background-color: #f7f0a3;
@@ -11,9 +11,9 @@
   margin-right: 105px;
   height: 38rem;
   width: 75rem;
-}
+}*/
 
-.postCard input {
+/*.postCard input {
   border: solid #f7f3c6 1px;
   border-radius: 0.5em;
   background-color: #f7f3c6;
@@ -27,19 +27,19 @@
   display: flex;
   height: 20px;
   width: 500px;
-}
+}*/
 
-.postCard ::-webkit-input-placeholder {
+/*.postCard ::-webkit-input-placeholder {
   color: #d1c96f;
   text-align: justify;
-}
+}*/
 
-#postInputs {
+/*#postInputs {
   margin-top: 15px;
   margin-left: 10px;
-}
+}*/
 
-.postCard textarea {
+/*.postCard textarea {
   border: solid #f7f3c6 1px;
   border-radius: 0.5em;
   background-color: #f7f3c6;
@@ -52,12 +52,15 @@
   padding: 15px;
   height: 15rem;
   width: 70rem;
+}*/
+.peaceDollarHR {
+  width: 300px;
+  height: 150px;
 }
-
-#btn-group {
+/*#btn-group {
   display: flex;
   justify-content: center;
-}
+}*/
 
 /*.postCard h2 {
     font-family: "Roboto", sans-serif;

@@ -3,14 +3,14 @@ import * as React from "react";
 import Button from "@mui/material/Button";
 //import Grid from "@mui/material/Grid";
 import "../../../assets/fonts/fonts.css";
-import "./submitpost.css";
+import "./back.css";
 
-function SubmitPostButton() {
+function BackButton() {
   return (
-    <div id="submitpost">
-      <Button>Submit</Button>
+    <div id="back">
+      <Button>Back</Button>
     </div>
   );
 }
 
-export default SubmitPostButton;
+export default BackButton;
