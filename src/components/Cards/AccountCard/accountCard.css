@@ -1,4 +1,4 @@
-#accountCard {
+/*#accountCard {
   border: solid #f7f0a3 1px;
   border-radius: 0.5em;
   background-color: #f7f0a3;
@@ -9,25 +9,29 @@
   margin-right: 105px;
   height: 35rem;
   width: 75rem;
+}*/
+
+.profilePic {
+  border-radius: 50%;
 }
 
-.acctCard h2 {
+#accountCard h2 {
   font-family: "Roboto", sans-serif;
   color: #8b8002;
-  font-size: 55px;
+  font-size: 65px;
   text-align: center;
 }
 
-.acctCard p {
+#accountCard h4 {
   font-family: "Roboto", sans-serif;
   color: #8b8002;
-  font-size: 35px;
+  font-size: 45px;
   text-align: justify;
   margin-left: 35px;
   padding-left: 35px;
 }
 
-#btn-group {
+/*#btn-group {
   display: flex;
   justify-content: center;
-}
+}*/
