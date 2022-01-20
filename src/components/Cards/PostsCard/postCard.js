@@ -79,6 +79,7 @@ function CreatePostCard() {
           <Grid item xs={0} sm={1.5} />
 
           <Grid item xs={0} sm={3} />
+
           <Grid
             item
             xs={12}
@@ -98,6 +99,7 @@ function CreatePostCard() {
           >
             <Back />
           </Grid>
+
           <Grid item xs={0} sm={3} />
         </Grid>
       </Container>
