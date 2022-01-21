@@ -1,7 +1,6 @@
 import "./layout.css";
 import Navigation from "../Navigation/navigation";
 import Footer from "../Footer/footer";
-//import { Grid } from "@mui/material";
 
 function Layout(props) {
   return (
