@@ -1,10 +1,12 @@
+import * as React from "react";
+import Button from "@mui/material/Button";
 import "../../../assets/fonts/fonts.css";
 import "./submit.css";
 
 function SubmitButton() {
   return (
     <div id="submit">
-      <button>Submit</button>
+      <Button>Submit</Button>
     </div>
   );
 }

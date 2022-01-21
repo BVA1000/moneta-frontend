@@ -11,6 +11,7 @@ import profilepic from "../../../assets/images/bva.jpg";
 import Update from "../../Buttons/Update/update";
 import Create from "../../Buttons/Create/create";
 import Edit from "../../Buttons/Edit/edit";
+import { Link } from "react-router-dom";
 import "./accountCard.css";
 import "../../../assets/fonts/fonts.css";
 
@@ -32,52 +33,39 @@ function AccountCard() {
           </Grid>
           <Grid item xs={0} sm={1} />
 
-          <Grid item xs={0} sm={0.5} />
-          <Grid item xs={12} md={7.5}>
-            <Typography variant="h4">Full Name: Ben Von Achen</Typography>
-            <Typography variant="h4">User Name: BVA1000</Typography>
-            <Typography variant="h4">Email: benvonachen@bva.com</Typography>
-          </Grid>
-          <Grid item xs={12} md={3.5}>
+          <Grid item xs={0} sm={1} />
+          <Grid item xs={12} md={4.5}>
             <Box sx={{ justifyContent: "center" }}>
-              <img
-                src={profilepic}
-                className="profilePic"
-                alt="Profile Picture"
-                style={{ width: 250, height: 250 }}
-              />
+              <img src={profilepic} className="profilePic" alt="Profile" />
             </Box>
           </Grid>
-          <Grid item xs={0} sm={0.5} />
+          <Grid item xs={12} md={5.5}>
+            <Typography className="big" variant="h4" color="#8b8002">
+              Full Name: Ben Von Achen
+            </Typography>
+            <Typography className="big" variant="h4" color="#8b8002">
+              User Name: BVA1000
+            </Typography>
+            <Typography className="big" variant="h4" color="#8b8002">
+              Email: benvonachen@bva.com
+            </Typography>
+          </Grid>
+          <Grid item xs={0} sm={1} />
 
           <Grid item xs={0} sm={1.005} />
-          <Grid
-            item
-            xs={12}
-            md={3.33}
-            spacing={2}
-            style={{ justifyContent: "center" }}
-          >
-            <Update />
+          <Grid item xs={12} md={3.33} style={{ justifyContent: "center" }}>
+            <Link to="/update">
+              <Update />
+            </Link>
           </Grid>
 
-          <Grid
-            item
-            xs={12}
-            md={3.33}
-            spacing={2}
-            style={{ justifyContent: "center" }}
-          >
-            <Create />
+          <Grid item xs={12} md={3.33} style={{ justifyContent: "center" }}>
+            <Link to="/createpost">
+              <Create />
+            </Link>
           </Grid>
 
-          <Grid
-            item
-            xs={12}
-            md={3.33}
-            spacing={2}
-            style={{ justifyContent: "center" }}
-          >
+          <Grid item xs={12} md={3.33} style={{ justifyContent: "center" }}>
             <Edit />
           </Grid>
           <Grid item xs={0} sm={1.005} />

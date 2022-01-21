@@ -28,3 +28,7 @@
 #signupform ::-webkit-input-placeholder {
   color: #d1c96f;
 }
+
+#signupform a {
+  text-decoration: none;
+}

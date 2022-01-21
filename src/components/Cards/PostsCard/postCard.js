@@ -8,7 +8,8 @@ import Back from "../../Buttons/Back/back";
 import SubmitPost from "../../Buttons/Submit/submitpost";
 import "../../../assets/fonts/fonts.css";
 import peacehr from "../../../assets/images/21peacehr.jpg";
-//import "./postCard.css";
+import { Link } from "react-router-dom";
+import "./postCard.css";
 
 function CreatePostCard() {
   return (
@@ -22,39 +23,42 @@ function CreatePostCard() {
         }}
       >
         <Grid container spacing={3}>
-          <Grid item xs={0} sm={1} />
-          <Grid item xs={12} md={10}>
+          <Grid item xs={0} sm={1.5} />
+          <Grid item xs={12} md={9}>
             <TextField
               id="title"
               name="title"
               label="Title"
               fullWidth
               variant="standard"
+              sx={{ color: "#8b8002" }}
             ></TextField>
           </Grid>
-          <Grid item xs={0} sm={1} />
-          <Grid item xs={0} sm={1} />
-          <Grid item xs={12} md={10}>
+          <Grid item xs={0} sm={1.5} />
+          <Grid item xs={0} sm={1.5} />
+          <Grid item xs={12} md={9}>
             <TextField
               id="subject"
               name="subject"
               label="Subject"
               fullWidth
               variant="standard"
+              sx={{ color: "#8b8002" }}
             ></TextField>
           </Grid>
-          <Grid item xs={0} sm={1} />
-          <Grid item xs={0} sm={1} />
-          <Grid item xs={12} md={10}>
+          <Grid item xs={0} sm={1.5} />
+          <Grid item xs={0} sm={1.5} />
+          <Grid item xs={12} md={9}>
             <TextField
               id="author"
               name="author"
               label="Author"
               fullWidth
               variant="standard"
+              sx={{ color: "#8b8002" }}
             ></TextField>
           </Grid>
-          <Grid item xs={0} sm={1} />
+          <Grid item xs={0} sm={1.5} />
 
           <Grid item xs={0} sm={1.5} />
           <Grid item xs={12} md={4.5}>
@@ -97,7 +101,9 @@ function CreatePostCard() {
             spacing={2}
             style={{ justifyContent: "center" }}
           >
-            <Back />
+            <Link to="/account">
+              <Back />
+            </Link>
           </Grid>
 
           <Grid item xs={0} sm={3} />

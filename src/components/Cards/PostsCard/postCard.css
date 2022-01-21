@@ -57,6 +57,11 @@
   width: 300px;
   height: 150px;
 }
+
+#createPostsCard a {
+  text-decoration: none;
+}
+
 /*#btn-group {
   display: flex;
   justify-content: center;

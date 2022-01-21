@@ -13,6 +13,8 @@
 
 .profilePic {
   border-radius: 50%;
+  width: 250px;
+  height: 250px;
 }
 
 #accountCard h2 {
@@ -22,7 +24,15 @@
   text-align: center;
 }
 
-#accountCard h4 {
+h4.big {
+  line-height: 2;
+}
+
+#accountCard a {
+  text-decoration: none;
+}
+
+/*#accountCard h6 {
   font-family: "Roboto", sans-serif;
   color: #8b8002;
   font-size: 45px;
