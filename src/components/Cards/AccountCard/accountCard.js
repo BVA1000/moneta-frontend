@@ -3,11 +3,8 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-//import TextField from "@mui/material/TextField";
-//import TextareaAutosize from "@mui/material/TextareaAutosize";
 import "../../../assets/fonts/fonts.css";
 import profilepic from "../../../assets/images/bva.jpg";
-//import "./postCard.css";
 import Update from "../../Buttons/Update/update";
 import Create from "../../Buttons/Create/create";
 import Edit from "../../Buttons/Edit/edit";
@@ -76,29 +73,3 @@ function AccountCard() {
 }
 
 export default AccountCard;
-
-/*import Update from "../../Buttons/Update/update";
-import Create from "../../Buttons/Create/create";
-import Edit from "../../Buttons/Edit/edit";
-import "./accountCard.css";
-
-function AccountCard() {
-  return (
-    <div id="accountCard">
-      <div className="acctCard">
-        <h2>Account Info</h2>
-        <p>Full Name: Ben Von Achen</p>
-        <p>User Name: BVA1000</p>
-        <p>Email: benvonachen@bva.com</p>
-        <br />
-        <div id="btn-group">
-          <Update />
-          <Create />
-          <Edit />
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export default AccountCard;*/

@@ -5,7 +5,6 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "../../assets/fonts/fonts.css";
 import "./coins.css";
-//import { amber } from "@mui/material/colors";
 import Grid from "@mui/material/Grid";
 
 function Coins() {
