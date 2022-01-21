@@ -28,3 +28,7 @@
 #signinform ::-webkit-input-placeholder {
   color: #d1c96f;
 }
+
+#signinform a {
+  text-decoration: none;
+}

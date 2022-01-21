@@ -1,10 +1,12 @@
+import * as React from "react";
+import Button from "@mui/material/Button";
 import "../../../assets/fonts/fonts.css";
 import "./edit.css";
 
 function EditButton() {
   return (
     <div id="edit">
-      <button>Edit Posts</button>
+      <Button>Edit Posts</Button>
     </div>
   );
 }

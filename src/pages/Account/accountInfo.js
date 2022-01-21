@@ -8,7 +8,7 @@ function AccountInfo() {
     <div id="accountInfo">
       <Grid container spacing={4}>
         <Grid item xs={12} md={12}>
-          <h1>Hello!</h1>
+          <h1>Hello Ben!</h1>
         </Grid>
         <Grid item xs={12} md={12}>
           <AccountCard />

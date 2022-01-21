@@ -1,4 +1,5 @@
 import Submit from "../../components/Buttons/Submit/submit";
+import { Link } from "react-router-dom";
 import "../../assets/fonts/fonts.css";
 import "./signin.css";
 
@@ -12,7 +13,9 @@ function SignInForm() {
         <div>
           <input placeholder="Password" type="password" required />
         </div>
-        <Submit />
+        <Link to="/account">
+          <Submit />
+        </Link>
       </form>
     </div>
   );
