@@ -15,7 +15,7 @@
 #home h3 {
   color: #fef4d1;
   font-family: "Roboto", sans-serif;
-  font-size: 55px;
+  font-size: 50px;
   margin: 15px;
   text-align: justify;
 }
@@ -38,4 +38,17 @@ h3.big {
 
 p.big {
   line-height: 2;
+}
+
+#bronze p {
+  line-height: 2;
+  color: #bd5d04;
+}
+
+#silver p {
+  color: #747272;
+}
+
+#gold p {
+  color: #ffb005;
 }
