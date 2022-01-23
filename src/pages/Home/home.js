@@ -1,5 +1,4 @@
 import "../../assets/fonts/fonts.css";
-import Typography from "@mui/material/Typography";
 import uscoins from "../../assets/images/uscoins.jpg";
 import "./home.css";
 import { Grid } from "@mui/material";
