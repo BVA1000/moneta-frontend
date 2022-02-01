@@ -1,0 +1,23 @@
+#membershipInfo h2 {
+  color: #fef4d1;
+  font-family: "Roboto", sans-serif;
+  font-size: 65px;
+  margin: 15px;
+  text-align: justify;
+}
+
+#membershipInfo p {
+  color: #fef4d1;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  margin: 15px;
+  text-align: justify;
+}
+
+h2.big {
+  line-height: 2;
+}
+
+p.big {
+  line-height: 2;
+}

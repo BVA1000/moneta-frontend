@@ -14,6 +14,10 @@ import AccountInfo from "./pages/Account/accountInfo";
 import UpdateAccount from "./pages/Account/updateAcct";
 import CreatePost from "./pages/Posts/createPost";
 
+import CoinNewsInfo from "./pages/CoinNewsInfo/coinNewsInfo";
+import CoinValuesInfo from "./pages/CoinValuesInfo/coinValuesInfo";
+import MembershipInfo from "./pages/MembershipInfo/membershipInfo";
+
 function App() {
   return (
     <Layout>
@@ -39,6 +43,12 @@ function App() {
         <Route path="/update" element={<UpdateAccount />} />
 
         <Route path="/createpost" element={<CreatePost />} />
+
+        <Route path="/coinnews" element={<CoinNewsInfo />} />
+
+        <Route path="/coinvalues" element={<CoinValuesInfo />} />
+
+        <Route path="/membership" element={<MembershipInfo />} />
       </Routes>
     </Layout>
   );
