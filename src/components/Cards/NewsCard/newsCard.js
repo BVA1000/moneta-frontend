@@ -17,18 +17,24 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import goldcoins from "../../../assets/images/monetagold.jpg";
 import "./newsCard.css";
 
-const ExpandMore = styled((props) => {
-  const { expand, ...other } = props;
-  return <IconButton {...other} />;
-})(({ theme, expand }) => ({
-  transform: !expand ? "rotate(0deg)" : "rotate(180deg)",
-  marginLeft: "auto",
-  transition: theme.transitions.create("transform", {
-    duration: theme.transitions.duration.shortest,
-  }),
-}));
+//import { useSelector } from "react-redux";
+
 
 function NewsCard() {
+
+  const ExpandMore = styled((props) => {
+    const { expand, ...other } = props;
+    return <IconButton {...other} />;
+  })(({ theme, expand }) => ({
+    transform: !expand ? "rotate(0deg)" : "rotate(180deg)",
+    marginLeft: "auto",
+    transition: theme.transitions.create("transform", {
+      duration: theme.transitions.duration.shortest,
+    }),
+  }));
+
+  //const post = useSelector((state) => state.post.value);
+
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
