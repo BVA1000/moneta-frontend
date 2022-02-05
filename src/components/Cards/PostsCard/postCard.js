@@ -11,9 +11,17 @@ import peacehr from "../../../assets/images/21peacehr.jpg";
 import { Link } from "react-router-dom";
 import "./postCard.css";
 
+//import { useDispatch } from "react-redux";
+//import { createPost } from "../../../store/postsSlice";
+
 function CreatePostCard() {
+  
+  //const dispatch = useDispatch()
+
+
   return (
     <div id="createPostsCard">
+      
       <Container
         maxWidth="md"
         sx={{
@@ -64,6 +72,7 @@ function CreatePostCard() {
           <Grid item xs={12} md={4.5}>
             <Box sx={{ justifyContent: "center" }}>
               <TextareaAutosize
+                id="text"
                 defaultValue="Place text here"
                 style={{ width: 300, height: 150 }}
               ></TextareaAutosize>
@@ -73,6 +82,7 @@ function CreatePostCard() {
           <Grid item xs={12} md={4.5}>
             <Box sx={{ justifyContent: "center" }}>
               <img
+                id="image"              
                 src={peacehr}
                 className="peaceDollarHR"
                 alt="Peace Dollar High Relief"
@@ -91,7 +101,11 @@ function CreatePostCard() {
             spacing={2}
             style={{ justifyContent: "center" }}
           >
-            <SubmitPost />
+            <SubmitPost 
+              /*onClick={() => {
+                dispatch(createPost({}));
+              }}*/
+            />
           </Grid>
 
           <Grid
