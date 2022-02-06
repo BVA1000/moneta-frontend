@@ -1,7 +1,7 @@
 # moneta-frontend
 The Frontend application for Moneta®
 
-Moneta® is a platform for coin collectors, enthusiasts, and numsmatists. 
+Moneta® is a platform for coin collectors, enthusiasts, and numismatists. 
 Our users are able to create and post blogs related to the topics of Numismatics, Monetary History, and current Coin News.
 With this revolutionary platform, our users will be able to share valuable information with other users
 as well as being able to buy, sell, or display their coin and currency collections.
