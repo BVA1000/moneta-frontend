@@ -17,9 +17,9 @@ const postsSlice = createSlice({
       createPost(state, action) {
           state.value = action.payload
         /*const newPost = action.payload;
-        const existingPost = state.posts.find((post) => post.id === newPost.id);
+        const existingPost = state.value.find((post) => post.id === newPost.id);
         if (!existingPost) {
-            state.posts.push({
+            state.value.push({
               id: newPost.id,
               title: newPost.title,
               subject: newPost.subject,
