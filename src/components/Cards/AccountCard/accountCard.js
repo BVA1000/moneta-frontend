@@ -12,7 +12,14 @@ import { Link } from "react-router-dom";
 import "./accountCard.css";
 import "../../../assets/fonts/fonts.css";
 
+//import { useSelector } from "react-redux";
+
+
 function AccountCard() {
+
+  //const account = useSelector((state) => state.account.value);
+
+
   return (
     <div id="accountCard">
       <Container
@@ -34,17 +41,18 @@ function AccountCard() {
           <Grid item xs={12} md={4.5}>
             <Box sx={{ justifyContent: "center" }}>
               <img src={profilepic} className="profilePic" alt="Profile" />
+              {/* image */}
             </Box>
           </Grid>
           <Grid item xs={12} md={5.5}>
             <Typography className="big" variant="h4" color="#8b8002">
-              Full Name: Ben Von Achen
+              Full Name: Ben Von Achen {/* fullname */}
             </Typography>
             <Typography className="big" variant="h4" color="#8b8002">
-              User Name: BVA1000
+              User Name: BVA1000 {/* username */}
             </Typography>
             <Typography className="big" variant="h4" color="#8b8002">
-              Email: benvonachen@bva.com
+              Email: benvonachen@bva.com {/* email */}
             </Typography>
           </Grid>
           <Grid item xs={0} sm={1} />

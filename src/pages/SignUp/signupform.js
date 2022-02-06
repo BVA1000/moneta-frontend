@@ -3,23 +3,33 @@ import { Link } from "react-router-dom";
 import "../../assets/fonts/fonts.css";
 import "./signup.css";
 
+//import { useDispatch } from "react-redux";
+//import { createAccount } from "../../../store/accountSlice";
+
 function SignUpForm() {
+
+  //const dispatch = useDispatch()
+
   return (
     <div id="signupform">
       <div>
-        <input placeholder="Full Name" type="text" required />
+        <input id="fullname" placeholder="Full Name" type="text" required />
       </div>
       <div>
-        <input placeholder="Email" type="text" required />
+        <input id="email" placeholder="Email" type="text" required />
       </div>
       <div>
-        <input placeholder="Username" type="text" required />
+        <input id="username" placeholder="Username" type="text" required />
       </div>
       <div>
-        <input placeholder="Password" type="password" required />
+        <input id="password" placeholder="Password" type="password" required />
       </div>
       <Link to="/account">
-        <Submit />
+        <Submit 
+        /*onClick={() => {
+                dispatch(createAccount({}));
+              }}*/
+        />
       </Link>
     </div>
   );
