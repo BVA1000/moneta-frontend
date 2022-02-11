@@ -21,3 +21,21 @@ h2.big {
 p.big {
   line-height: 2;
 }
+
+.Bronze {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.Silver {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.Gold {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+}
