@@ -1,7 +1,33 @@
+@media only screen and (max-width: 1000px) {
+  #uscoins {
+  
+  width: 575px;
+  height: 350px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #uscoins {
+  width: 465px;
+  height: 300px;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  #uscoins {
+  width: 365px;
+  height: 240px;
+  }
+}
+
+
 .usCoins {
-  margin: 15px;
-  width: 675px;
-  height: 400px;
+  border-radius: 0.5rem;
+  margin: 10px;
+  width: 725px;
+  height: 450px;
+  justify-content: center;
 }
 
 #home h2 {
@@ -9,7 +35,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 65px;
   margin: 15px;
-  text-align: justify;
+  text-align: center;
 }
 
 #home h3 {
@@ -23,7 +49,7 @@
 #home p {
   color: #fef4d1;
   font-family: "Roboto", sans-serif;
-  font-size: 25px;
+  font-size: 24px;
   margin: 15px;
   text-align: justify;
 }

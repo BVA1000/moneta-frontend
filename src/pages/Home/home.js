@@ -16,9 +16,13 @@ function Home() {
           <h2 className="big">Welcome to Moneta!</h2>
         </Grid>
         <Grid item xs={0} sm={1} />
+      </Grid>
 
-        <Grid item xs={0} sm={1} />
-        <Grid item xs={12} md={5}>
+      <Grid 
+      justifyContent="center"
+      container spacing={2}>
+      <Grid item sm={0} md={0} lg={1}/>
+        <Grid item sm={12} md={12} lg={5}>
           <p className="big">
             Moneta is a great platform for coin enthusiasts who love the study
             of numismatics and who want to connect with others who have common
@@ -37,26 +41,32 @@ function Home() {
           </p>
         </Grid>
 
-        <Grid item xs={12} md={5}>
-          <img src={uscoins} className="usCoins" alt="US Coins" />
+        <Grid item sm={12} md={12} lg={5}>
+          <img id="uscoins" src={uscoins} className="usCoins" alt="US Coins" />
         </Grid>
-        <Grid item xs={0} sm={1} />
+        <Grid item sm={0} md={0} lg={1}/>
       </Grid>
       <br />
-      <Grid container spacing={12}>
-        <Grid item xs={0} md={1.005} />
-        <Grid item xs={12} md={3.33}>
+      <Grid 
+      container 
+      justifyContent="center"
+      alignItems="center"
+      spacing={12}
+      
+      >
+        <Grid item sm={0} md={1.005} lg={1.5}/>
+        <Grid item sm={12} md={3.33} lg={3}>
           <CoinNewsCard />
         </Grid>
-
-        <Grid item xs={12} md={3.33}>
+                
+        <Grid item sm={12} md={3.33} lg={3}>
           <CoinValuesCard />
         </Grid>
-
-        <Grid item xs={12} md={3.33}>
+       
+        <Grid item sm={12} md={3.33} lg={3}>
           <MembershipCard />
         </Grid>
-        <Grid item xs={0} md={1.005} />
+        <Grid item sm={0} md={1.005} lg={1.5}/>
       </Grid>
     </div>
   );
