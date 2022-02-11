@@ -2,6 +2,11 @@ import "../../assets/fonts/fonts.css";
 import "./membershipInfo.css";
 import { Grid } from "@mui/material";
 
+import bronze from "../../assets/images/icons/Bronze.png";
+import silver from "../../assets/images/icons/Silver.png";
+import gold from "../../assets/images/icons/Gold.png";
+
+
 function MembershipInfo() {
   return (
     <div id="membershipInfo">
@@ -15,7 +20,7 @@ function MembershipInfo() {
             three types of memberships (Bronze, Silver, and Gold), and each one
             has it's different perks.
           </p>
-
+          <img id="bronze" src={bronze} className="Bronze" alt="Bronze" />
           {/*<div id="bronze">*/}
           <p className="big">
             The Bronze membership is a simple subscription that puts you on our
@@ -24,6 +29,7 @@ function MembershipInfo() {
             interesting topics such as monetary history, coin facts, and the
             current trends in the industry.
           </p>
+          <img id="silver" src={silver} className="Silver" alt="Silver" />
           {/*</div>
           <div id="silver">*/}
           <p className="big">
@@ -36,6 +42,7 @@ function MembershipInfo() {
             information that is useful and helpful for your hobby. This
             membership does have a monthly subscription fee of $4.99.
           </p>
+          <img id="gold" src={gold} className="Gold" alt="Gold" />
           {/*</div>
           <div id="gold">*/}
           <p className="big">
