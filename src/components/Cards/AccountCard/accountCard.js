@@ -14,11 +14,8 @@ import "../../../assets/fonts/fonts.css";
 
 //import { useSelector } from "react-redux";
 
-
 function AccountCard() {
-
   //const account = useSelector((state) => state.account.value);
-
 
   return (
     <div id="accountCard">
@@ -27,6 +24,7 @@ function AccountCard() {
         sx={{
           borderRadius: 10,
           bgcolor: "#f7f0a3",
+          boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
           padding: 5,
         }}
       >
@@ -45,14 +43,45 @@ function AccountCard() {
             </Box>
           </Grid>
           <Grid item xs={12} md={5.5}>
-            <Typography className="big" variant="h4" color="#8b8002">
+            <Typography
+              className="big"
+              variant="h4"
+              sx={{
+                color: "#8b8002",
+                fontSize: 30,
+              }}
+            >
               Full Name: Ben Von Achen {/* fullname */}
             </Typography>
-            <Typography className="big" variant="h4" color="#8b8002">
+            <Typography
+              className="big"
+              variant="h4"
+              sx={{
+                color: "#8b8002",
+                fontSize: 30,
+              }}
+            >
               User Name: BVA1000 {/* username */}
             </Typography>
-            <Typography className="big" variant="h4" color="#8b8002">
+            <Typography
+              className="big"
+              variant="h4"
+              sx={{
+                color: "#8b8002",
+                fontSize: 30,
+              }}
+            >
               Email: benvonachen@bva.com {/* email */}
+            </Typography>
+            <Typography
+              className="big"
+              variant="h4"
+              sx={{
+                color: "#8b8002",
+                fontSize: 30,
+              }}
+            >
+              Account Type: Gold {/* account type */}
             </Typography>
           </Grid>
           <Grid item xs={0} sm={1} />

@@ -8,6 +8,7 @@ function AccountInfo() {
     <div id="accountInfo">
       <Grid container spacing={4}>
         <Grid item xs={12} md={12}>
+          {/* Hello {user.name} */}
           <h1>Hello Ben!</h1>
         </Grid>
         <Grid item xs={12} md={12}>

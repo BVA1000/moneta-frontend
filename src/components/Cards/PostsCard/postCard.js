@@ -15,18 +15,16 @@ import "./postCard.css";
 //import { createPost } from "../../../store/postsSlice";
 
 function CreatePostCard() {
-  
   //const dispatch = useDispatch()
-
 
   return (
     <div id="createPostsCard">
-      
       <Container
         maxWidth="md"
         sx={{
           borderRadius: 10,
           bgcolor: "#f7f0a3",
+          boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
           padding: 5,
         }}
       >
@@ -82,7 +80,7 @@ function CreatePostCard() {
           <Grid item xs={12} md={4.5}>
             <Box sx={{ justifyContent: "center" }}>
               <img
-                id="image"              
+                id="image"
                 src={peacehr}
                 className="peaceDollarHR"
                 alt="Peace Dollar High Relief"
@@ -101,8 +99,8 @@ function CreatePostCard() {
             spacing={2}
             style={{ justifyContent: "center" }}
           >
-            <SubmitPost 
-              /*onClick={() => {
+            <SubmitPost
+            /*onClick={() => {
                 dispatch(createPost({}));
               }}*/
             />
