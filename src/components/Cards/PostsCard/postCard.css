@@ -1,8 +1,39 @@
-.peaceDollarHR {
-  width: 300px;
-  height: 150px;
-}
-
 #createPostsCard a {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 1150px) {
+  #textbox {
+    width: 550px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #textbox {
+    width: 400px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #textbox {
+    width: 350px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  #textbox {
+    width: 300px;
+    height: 150px;
+  }
+}
+
+.textBox {
+  border-radius: 0.5rem;
+  margin: 4px;
+  width: 620px;
+  height: 150px;
+  justify-content: center;
 }
