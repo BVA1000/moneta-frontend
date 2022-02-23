@@ -1,13 +1,13 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
+
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import TextField from "@mui/material/TextField";
-import TextareaAutosize from "@mui/material/TextareaAutosize";
+
 import Back from "../../Buttons/Back/back";
 import SubmitPost from "../../Buttons/Submit/submitpost";
 import "../../../assets/fonts/fonts.css";
-import peacehr from "../../../assets/images/21peacehr.jpg";
+
 import { Link } from "react-router-dom";
 import "./postCard.css";
 
@@ -25,7 +25,7 @@ function CreatePostCard() {
           borderRadius: 10,
           bgcolor: "#f7f0a3",
           boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
-          padding: 5,
+          padding: 4,
         }}
       >
         <Grid container spacing={3}>
@@ -41,8 +41,9 @@ function CreatePostCard() {
             ></TextField>
           </Grid>
           <Grid item xs={0} sm={1.5} />
+
           <Grid item xs={0} sm={1.5} />
-          <Grid item xs={12} md={9}>
+          <Grid item xs={12} md={4.5}>
             <TextField
               id="subject"
               name="subject"
@@ -52,9 +53,8 @@ function CreatePostCard() {
               sx={{ color: "#8b8002" }}
             ></TextField>
           </Grid>
-          <Grid item xs={0} sm={1.5} />
-          <Grid item xs={0} sm={1.5} />
-          <Grid item xs={12} md={9}>
+
+          <Grid item xs={12} md={4.5}>
             <TextField
               id="author"
               name="author"
@@ -67,34 +67,35 @@ function CreatePostCard() {
           <Grid item xs={0} sm={1.5} />
 
           <Grid item xs={0} sm={1.5} />
-          <Grid item xs={12} md={4.5}>
-            <Box sx={{ justifyContent: "center" }}>
-              <TextareaAutosize
-                id="text"
-                defaultValue="Place text here"
-                style={{ width: 300, height: 150 }}
-              ></TextareaAutosize>
-            </Box>
-          </Grid>
-
-          <Grid item xs={12} md={4.5}>
-            <Box sx={{ justifyContent: "center" }}>
-              <img
-                id="image"
-                src={peacehr}
-                className="peaceDollarHR"
-                alt="Peace Dollar High Relief"
-                style={{ width: 300, height: 150 }}
-              />
-            </Box>
+          <Grid item xs={12} md={9}>
+            <TextField
+              id="imageUrl"
+              name="imageurl"
+              label="Image URL"
+              fullWidth
+              variant="standard"
+              sx={{ color: "#8b8002" }}
+            ></TextField>
           </Grid>
           <Grid item xs={0} sm={1.5} />
 
-          <Grid item xs={0} sm={3} />
+          <Grid item xs={0} sm={1.5} />
+          <Grid item xs={12} md={9}>
+            <textarea
+              placeholder="Place text here"
+              className="textBox"
+              id="textbox"
+            />
+          </Grid>
+
+          <Grid item xs={0} sm={1.5} />
+
+          <Grid item xs={0} sm={1.5} md={3} />
 
           <Grid
             item
             xs={12}
+            sm={4.5}
             md={3}
             spacing={2}
             style={{ justifyContent: "center" }}
@@ -109,6 +110,7 @@ function CreatePostCard() {
           <Grid
             item
             xs={12}
+            sm={4.5}
             md={3}
             spacing={2}
             style={{ justifyContent: "center" }}
@@ -118,7 +120,7 @@ function CreatePostCard() {
             </Link>
           </Grid>
 
-          <Grid item xs={0} sm={3} />
+          <Grid item xs={0} sm={1.5} md={3} />
         </Grid>
       </Container>
     </div>

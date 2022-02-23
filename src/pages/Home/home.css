@@ -1,29 +1,27 @@
 @media only screen and (max-width: 1000px) {
   #uscoins {
-  
-  width: 575px;
-  height: 350px;
+    width: 575px;
+    height: 350px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   #uscoins {
-  width: 465px;
-  height: 300px;
+    width: 465px;
+    height: 300px;
   }
 }
-
 
 @media only screen and (max-width: 400px) {
   #uscoins {
-  width: 365px;
-  height: 240px;
+    width: 365px;
+    height: 240px;
   }
 }
 
-
 .usCoins {
   border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: 10px;
   width: 725px;
   height: 450px;
