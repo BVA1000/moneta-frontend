@@ -1,9 +1,3 @@
-import * as React from "react";
-import InputLabel from "@mui/material/InputLabel";
-import MenuItem from "@mui/material/MenuItem";
-import FormControl from "@mui/material/FormControl";
-import Select from "@mui/material/Select";
-
 import Submit from "../../components/Buttons/Submit/submit";
 import { Link } from "react-router-dom";
 import "../../assets/fonts/fonts.css";
@@ -14,12 +8,6 @@ import "./signup.css";
 
 function SignUpForm() {
   //const dispatch = useDispatch()
-
-  const [acctType, setAcctType] = React.useState("");
-
-  const handleChange = (event) => {
-    setAcctType(event.target.value);
-  };
 
   return (
     <div id="signupform">
@@ -35,8 +23,32 @@ function SignUpForm() {
       <div>
         <input id="password" placeholder="Password" type="password" required />
       </div>
+      <div>
+        <input placeholder="Account Type" type="text" required />
+      </div>
 
-      <FormControl
+      <Link to="/account">
+        <Submit
+        /*onClick={() => {
+                dispatch(createAccount({}));
+              }}*/
+        />
+      </Link>
+    </div>
+  );
+}
+
+export default SignUpForm;
+
+/*
+import * as React from "react";
+import InputLabel from "@mui/material/InputLabel";
+import MenuItem from "@mui/material/MenuItem";
+import FormControl from "@mui/material/FormControl";
+import Select from "@mui/material/Select";
+
+
+<FormControl
         fullWidth
         sx={{
           bgcolor: "#f7f0a3",
@@ -67,17 +79,4 @@ function SignUpForm() {
           <MenuItem value={2}>Silver</MenuItem>
           <MenuItem value={3}>Gold</MenuItem>
         </Select>
-      </FormControl>
-
-      <Link to="/account">
-        <Submit
-        /*onClick={() => {
-                dispatch(createAccount({}));
-              }}*/
-        />
-      </Link>
-    </div>
-  );
-}
-
-export default SignUpForm;
+      </FormControl>*/
