@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1000px) {
+  #uscoins2 {
+    width: 525px;
+    height: 325px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #uscoins2 {
+    width: 450px;
+    height: 250px;
+  }
+}
+
+.usCoins2 {
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+  width: 650px;
+  height: 450px;
+  justify-content: center;
+}
+
+#xchange h2 {
+  color: #fef4d1;
+  font-family: "Roboto", sans-serif;
+  font-size: 65px;
+  margin: 15px;
+  text-align: center;
+}
+
+#xchange p {
+  color: #fef4d1;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  margin: 15px;
+  text-align: justify;
+}
+
+.xchange {
+  text-align: center;
+}
+
+h2.big {
+  line-height: 2;
+}
+
+p.big {
+  line-height: 2;
+}
