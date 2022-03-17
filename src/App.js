@@ -19,6 +19,7 @@ import CoinValuesInfo from "./pages/CoinValuesInfo/coinValuesInfo";
 import MembershipInfo from "./pages/MembershipInfo/membershipInfo";
 
 import XChange from "./pages/XChange/xchange";
+import Listings from "./pages/Listings/listings";
 
 function App() {
   return (
@@ -53,6 +54,8 @@ function App() {
         <Route path="/membership" element={<MembershipInfo />} />
 
         <Route path="/xchange" element={<XChange />} />
+
+        <Route path="/listings" element={<Listings />} />
       </Routes>
     </Layout>
   );

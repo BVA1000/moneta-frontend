@@ -1,38 +1,35 @@
-import * as React from "react";
-import { styled } from "@mui/material/styles";
-import Card from "@mui/material/Card";
-import CardHeader from "@mui/material/CardHeader";
-import CardMedia from "@mui/material/CardMedia";
-import CardContent from "@mui/material/CardContent";
-import CardActions from "@mui/material/CardActions";
-import Collapse from "@mui/material/Collapse";
-import Avatar from "@mui/material/Avatar";
-import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
-import { amber } from "@mui/material/colors";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ShareIcon from "@mui/icons-material/Share";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import MoreVertIcon from "@mui/icons-material/MoreVert";
-import goldcoins from "../../../assets/images/monetagold.jpg";
-import "./newsCard.css";
+import * as React from 'react';
+import { styled } from '@mui/material/styles';
+import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
+import CardMedia from '@mui/material/CardMedia';
+import CardContent from '@mui/material/CardContent';
+import CardActions from '@mui/material/CardActions';
+import Collapse from '@mui/material/Collapse';
+import Avatar from '@mui/material/Avatar';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import { amber } from '@mui/material/colors';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import ShareIcon from '@mui/icons-material/Share';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import MoreVertIcon from '@mui/icons-material/MoreVert';
+import goldcoins from '../../../assets/images/monetagold.jpg';
+import './newsCard.css';
 
 //import { useSelector } from "react-redux";
-
+const ExpandMore = styled((props) => {
+  const { expand, ...other } = props;
+  return <IconButton {...other} />;
+})(({ theme, expand }) => ({
+  transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
+  marginLeft: 'auto',
+  transition: theme.transitions.create('transform', {
+    duration: theme.transitions.duration.shortest,
+  }),
+}));
 
 function NewsCard() {
-
-  const ExpandMore = styled((props) => {
-    const { expand, ...other } = props;
-    return <IconButton {...other} />;
-  })(({ theme, expand }) => ({
-    transform: !expand ? "rotate(0deg)" : "rotate(180deg)",
-    marginLeft: "auto",
-    transition: theme.transitions.create("transform", {
-      duration: theme.transitions.duration.shortest,
-    }),
-  }));
-
   //const post = useSelector((state) => state.post.value);
 
   const [expanded, setExpanded] = React.useState(false);
@@ -42,16 +39,16 @@ function NewsCard() {
   };
 
   return (
-    <Card sx={{ maxWidth: 550, bgcolor: "#f7f0a3" }}>
+    <Card sx={{ maxWidth: 550, bgcolor: '#f7f0a3' }}>
       <CardHeader
-        sx={{ color: "#8b8002" }}
+        sx={{ color: '#8b8002' }}
         avatar={
           <Avatar sx={{ bgcolor: amber[500] }} aria-label="coins">
             BVA
           </Avatar>
         }
         action={
-          <IconButton sx={{ color: "#8b8002" }} aria-label="settings">
+          <IconButton sx={{ color: '#8b8002' }} aria-label="settings">
             <MoreVertIcon />
           </IconButton>
         }
@@ -63,13 +60,13 @@ function NewsCard() {
           src={goldcoins}
           className="goldCoins"
           alt="Gold Coins"
-          height={200}
+          height={300}
           width={550}
         />
       </CardMedia>
       <CardContent>
         <Typography
-          sx={{ color: "#8b8002" }}
+          sx={{ color: '#8b8002' }}
           variant="body2"
           color="text.secondary"
         >
@@ -80,14 +77,14 @@ function NewsCard() {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton sx={{ color: "#ff1744" }} aria-label="add to favorites">
+        <IconButton sx={{ color: '#ff1744' }} aria-label="add to favorites">
           <FavoriteIcon />
         </IconButton>
-        <IconButton sx={{ color: "#637bfe" }} aria-label="share">
+        <IconButton sx={{ color: '#637bfe' }} aria-label="share">
           <ShareIcon />
         </IconButton>
         <ExpandMore
-          sx={{ color: "#8b8002" }}
+          sx={{ color: '#8b8002' }}
           expand={expanded}
           onClick={handleExpandClick}
           aria-expanded={expanded}
@@ -98,13 +95,13 @@ function NewsCard() {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography sx={{ color: "#8b8002" }} paragraph>
+          <Typography sx={{ color: '#8b8002' }} paragraph>
             The Roman economy, from its founding and establishment as a
             Republic, through to the fifth and fourth centuries BC was a system
             of barter and community trade. All manner of trade goods, farm
             products, livestock and services were used as a means of exchange.
           </Typography>
-          <Typography sx={{ color: "#8b8002" }} paragraph>
+          <Typography sx={{ color: '#8b8002' }} paragraph>
             As Rome grew, and the need for a system other than barter with it,
             lumps of bronze and other base metals began to be used in lieu of
             the exchange of one good for another. These lumps, called Aes Rude
@@ -112,7 +109,7 @@ function NewsCard() {
             enough quantities, they could be melted down for the manufacturing
             of various metal tools and objects.
           </Typography>
-          <Typography sx={{ color: "#8b8002" }} paragraph>
+          <Typography sx={{ color: '#8b8002' }} paragraph>
             As time passed and the circulation of Aes Rude became more common,
             the Romans and their neighbors began to rely on this simple system
             of economic transfer. The first true Roman coin, the Aes Signatum
