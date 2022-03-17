@@ -1,0 +1,13 @@
+#listings {
+    margin: 1rem auto;
+    width: 80%;
+  }
+  
+  #listings h2 {
+    color: #fef4d1;
+    font-family: "Roboto", sans-serif;
+    font-size: 65px;
+    margin: 15px;
+    text-align: justify;
+  }
+  

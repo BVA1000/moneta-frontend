@@ -1,8 +1,9 @@
-import "../../assets/fonts/fonts.css";
-import "./xchange.css";
-import Browse from "../../components/Buttons/Browse/browse";
-import uscoins2 from "../../assets/images/uscoins2.jpg";
-import { Grid } from "@mui/material";
+import '../../assets/fonts/fonts.css';
+import './xchange.css';
+import Browse from '../../components/Buttons/Browse/browse';
+import uscoins2 from '../../assets/images/uscoins2.jpg';
+import { Grid } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 function XChange() {
   return (
@@ -38,7 +39,9 @@ function XChange() {
         <Grid item xs={0} sm={1} />
         <Grid item xs={12} md={10}>
           <div className="xchange">
-            <Browse />
+            <Link to="/listings">
+              <Browse />
+            </Link>
           </div>
         </Grid>
         <Grid item xs={0} sm={1} />
